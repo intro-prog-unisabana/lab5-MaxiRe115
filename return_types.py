@@ -1,3 +1,3 @@
 def obtener_precio_usuario():
-    float(int(input("Enter the item's price:\n")))
-    return float()
+    precio= float(int(input("Enter the item's price:\n")))
+    return float(precio)
