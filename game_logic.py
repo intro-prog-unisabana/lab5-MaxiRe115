@@ -9,7 +9,7 @@ while correcto != True:
     user_input = int(input("What is your guess:"))
     mensaje, correcto= input_response(generated_value, user_input)
     print(mensaje)
-    tries += 1
+    tries += 1 
 
 
 
