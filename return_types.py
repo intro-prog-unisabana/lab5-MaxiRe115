@@ -1,2 +1,3 @@
-def obtener_precio_usuario(precio):
-    return float(precio)
+def obtener_precio_usuario():
+    int(input("Enter the item's price:\n"))
+    return float()
