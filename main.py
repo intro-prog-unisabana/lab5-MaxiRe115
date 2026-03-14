@@ -7,8 +7,8 @@ while True:
         result= add(val1,val2)
         print(f"The result is: {result}")
     elif valor == "subtract":
-        val1= int(input("Enter the first number:"))
-        val2= int(input("Enter the second number:"))
+        val1= float((input("Enter the first number:")))
+        val2= float((input("Enter the second number:")))
         result= sub(val1,val2)
         print(f"The result is: {result}")
     elif valor == "multiply":
